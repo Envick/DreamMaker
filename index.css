@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rammetto+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+}
+.container {
+  width: 1115px;
+  margin: 0 auto;
+}
+.section-top {
+  height: 737px;
+  background-image: url(images/top-bg-image.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+header {
+  height: 116px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 273px;
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+}
+.logo-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo-letters {
+  font-family: "Rammetto One";
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  background: #c8c8c8;
+  border-radius: 100%;
+  width: 72px;
+  height: 72px;
+  margin-right: 21px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+}
+.logo-label {
+  font-family: "Roboto";
+  color: #505050;
+  font-size: 22px;
+  height: auto;
+}
+nav {
+  height: 100%;
+}
+nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li:not(:last-child) {
+  margin-right: 58px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #717784;
+}
+.styled-link {
+  display: flex;
+  width: 234px;
+  height: 60px;
+  background: #9b9bca;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+.section-top__block {
+  width: 751px;
+  height: 537px;
+  display: flex;
+  align-items: center;
+}
+.section-top__content {
+  height: 313px;
+}
+.section-top__content h1 {
+  font-family: "DM Serif Display", serif;
+  color: #696a86;
+  width: 548px;
+  font-size: 56px;
+  margin-bottom: 30px;
+}
+.section-top__content p {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #696a86;
+  margin-bottom: 30px;
+}
