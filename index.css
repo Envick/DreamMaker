@@ -12,8 +12,9 @@
 .container {
   width: 1115px;
   margin: 0 auto;
+  height: 100%;
 }
-.section-top {
+section.first {
   height: 737px;
   background-image: url(images/top-bg-image.jpg);
   background-repeat: no-repeat;
@@ -93,25 +94,119 @@ nav a {
   font-family: "Poppins";
   font-weight: 500;
 }
-.section-top__block {
+.first__block {
   width: 751px;
   height: 537px;
   display: flex;
   align-items: center;
 }
-.section-top__content {
+.first__content {
   height: 313px;
 }
-.section-top__content h1 {
+.first__content h1 {
   font-family: "DM Serif Display", serif;
   color: #696a86;
   width: 548px;
   font-size: 56px;
   margin-bottom: 30px;
 }
-.section-top__content p {
+.first__content p {
   font-size: 18px;
   font-family: "Poppins";
   color: #696a86;
   margin-bottom: 30px;
+}
+section.service {
+  height: 627px;
+  padding-top: 95px;
+}
+.service__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.service__title-block {
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service__title-block h2 {
+  font-family: "Poppins";
+  margin-bottom: 12px;
+  color: #626780;
+  font-weight: 500;
+  font-size: 26px;
+}
+.service__title-block span {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #626780;
+}
+.service__advantages {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.advantages__block {
+  padding-top: 23px;
+  width: 261px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advantages__icon {
+  margin-bottom: 21px;
+}
+.advantages__title {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #626780;
+  margin-bottom: 12px;
+}
+.advantages__bottomText {
+  color: #626780;
+  font-size: 16px;
+  font-family: "Poppins";
+  text-align: center;
+}
+.framed {
+  border: 1px solid #9d9d9d;
+  border-radius: 5px;
+}
+section.people {
+  height: 714px;
+  padding-top: 8px;
+}
+.people__content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.people__text-block {
+  width: 493px;
+  min-height: 175px;
+}
+.people__title {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 26px;
+  color: #626780;
+  margin-bottom: 16px;
+  line-height: 39px;
+}
+.people__description {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #626780;
+  line-height: 30px;
+}
+.people__img-block {
+  height: auto;
 }
