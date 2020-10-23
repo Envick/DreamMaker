@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rammetto+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -228,6 +229,9 @@ section.demo {
 }
 section.questions {
   height: 1937px;
+  background-image: url(images/questions-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top 150px right 0;
 }
 .questions__questions-wrapper {
   height: 100%;
@@ -245,6 +249,9 @@ section.questions {
   height: 1225px;
   padding-bottom: 50px;
   width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .questions__left-answers h2 {
   font-size: 48px;
@@ -270,6 +277,7 @@ section.questions {
   color: #402b2b;
 }
 .questions__Question {
+  cursor: pointer;
   height: 90px;
   padding: 25px 28px 0 35px;
   box-shadow: 0px 20px 40px #f5f5ff;
@@ -291,4 +299,36 @@ section.questions {
 }
 .active {
   display: block !important;
+}
+.questions__right-answers {
+  height: 1320px;
+  width: 535px;
+}
+.questions__person {
+  position: relative;
+  right: -44px;
+  width: 531px;
+  height: 730px;
+  background-position: 50% 0;
+  background-image: url(images/man.png);
+}
+.questions__load-button {
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.questions__load-button a {
+  width: 550px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9b9bca;
+  border-radius: 10px;
+  font-family: "Rubik";
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
 }
